@@ -5,7 +5,7 @@ A Variational Autoencoder implemented from scratch in PyTorch, trained to genera
 ## Samples
 
 <!-- digits generated from random latents z ~ N(0, I) -->
-![Generated samples](vae_samples.png)
+![Generated samples](vae_sample.png)
 
 Every digit above was generated from pure random noise — `z ~ N(0, I)` decoded into an image, with no input. A plain autoencoder can't do this; the VAE can, and that difference is the point of the architecture.
 
