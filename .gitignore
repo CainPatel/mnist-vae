@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# PyTorch checkpoints
+*.pth
+*.pt
+
+# Datasets (MNIST auto-downloads)
+data/
+
+# Generated samples — force-add the showcase image with: git add -f vae_samples.png
+*.png
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
